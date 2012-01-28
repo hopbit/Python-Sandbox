@@ -19,3 +19,6 @@ borrow case, what we need to know:
 - is book available to borrow?
 - if book isn't avaiable we should know who currently 
   borrowed it 
+
+---
+Simple ERD draft is placed at doc/db dir.  
