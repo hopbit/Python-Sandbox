@@ -19,7 +19,7 @@
 <data key="d9"/>
 <data key="d10">
 <y:ShapeNode>
-<y:Geometry height="50.0" width="94.80000000000001" x="-36.199999999999974" y="95.0"/>
+<y:Geometry height="50.0" width="94.80000000000001" x="337.79999999999995" y="472.1"/>
 <y:Fill color="#FFCC00" transparent="false"/>
 <y:BorderStyle color="#000000" type="line" width="1.0"/>
 <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="43.1640625" x="25.817968750000006" y="15.93359375">Person</y:NodeLabel>
@@ -31,7 +31,7 @@
 <data key="d9"/>
 <data key="d10">
 <y:ShapeNode>
-<y:Geometry height="55.60000000000002" width="127.60000000000002" x="-52.59999999999998" y="310.8"/>
+<y:Geometry height="55.60000000000002" width="127.60000000000002" x="716.2" y="272.2"/>
 <y:Fill color="#FFCC00" transparent="false"/>
 <y:BorderStyle color="#000000" type="line" width="1.0"/>
 <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="29.11328125" x="49.24335937500001" y="18.73359375000001">Role</y:NodeLabel>
@@ -43,7 +43,7 @@
 <data key="d9"/>
 <data key="d10">
 <y:ShapeNode>
-<y:Geometry height="70.0" width="127.60000000000002" x="-52.59999999999998" y="202.2"/>
+<y:Geometry height="70.0" width="127.60000000000002" x="716.2" y="462.09999999999997"/>
 <y:Fill color="#FFCC00" transparent="false"/>
 <y:BorderStyle color="#000000" type="line" width="1.0"/>
 <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="83.236328125" x="22.18183593750001" y="25.93359375">RoleToPerson</y:NodeLabel>
@@ -79,14 +79,289 @@
 <data key="d9"/>
 <data key="d10">
 <y:ShapeNode>
-<y:Geometry height="64.39999999999998" width="142.79999999999998" x="-251.39999999999998" y="87.80000000000001"/>
+<y:Geometry height="64.39999999999998" width="142.79999999999998" x="313.79999999999995" y="597.8"/>
 <y:Fill color="#FFCC00" transparent="false"/>
 <y:BorderStyle color="#000000" type="line" width="1.0"/>
-<y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="71.55859375" x="35.62070312499999" y="23.13359374999999">ContactInfo</y:NodeLabel>
+<y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="75.6015625" x="33.59921874999998" y="23.13359374999999">ContactData</y:NodeLabel>
 <y:Shape type="rectangle"/>
 </y:ShapeNode>
 </data>
 </node>
+<node id="n6">
+<data key="d9"/>
+<data key="d10">
+<y:ShapeNode>
+<y:Geometry height="41.25" width="164.99999999999994" x="292.2" y="208.675"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:BorderStyle color="#000000" type="line" width="1.0"/>
+<y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="85.50390625" x="39.748046875" y="11.55859375">BorrowToItem</y:NodeLabel>
+<y:Shape type="rectangle"/>
+</y:ShapeNode>
+</data>
+</node>
+<node id="n7">
+<data key="d8"></data>
+<data key="d9"><![CDATA[UMLNote]]></data>
+<data key="d10">
+<y:UMLNoteNode>
+<y:Geometry height="72.80000000000001" width="222.5" x="548.75" y="83.6"/>
+<y:Fill color="#99CCFF" transparent="false"/>
+<y:BorderStyle color="#000000" type="line" width="1.0"/>
+<y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="152.986328125" x="34.7568359375" y="20.267187500000006">In our case this table will 
+contain books data.</y:NodeLabel>
+</y:UMLNoteNode>
+</data>
+</node>
+<node id="n8">
+<data key="d8"></data>
+<data key="d9"><![CDATA[UMLNote]]></data>
+<data key="d10">
+<y:UMLNoteNode>
+<y:Geometry height="114.39999999999998" width="222.5" x="454.375" y="279.925"/>
+<y:Fill color="#99CCFF" transparent="false"/>
+<y:BorderStyle color="#000000" type="line" width="1.0"/>
+<y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="60.53125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="200.58203125" x="10.958984375" y="26.93437499999999">Person can be not only 
+a user/admin of this library 
+app, but book author/owner too. 
+This depends on persons role.</y:NodeLabel>
+</y:UMLNoteNode>
+</data>
+</node>
+<node id="n9">
+<data key="d9"/>
+<data key="d10">
+<y:ShapeNode>
+<y:Geometry height="64.39999999999998" width="142.79999999999998" x="94.85000000000001" y="110.0"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:BorderStyle color="#000000" type="line" width="1.0"/>
+<y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="67.4453125" x="37.67734374999999" y="23.13359374999999">ItemOwner</y:NodeLabel>
+<y:Shape type="rectangle"/>
+</y:ShapeNode>
+</data>
+</node>
+<node id="n10">
+<data key="d9"/>
+<data key="d10">
+<y:ShapeNode>
+<y:Geometry height="64.39999999999998" width="127.60000000000002" x="-136.925" y="87.80000000000004"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:BorderStyle color="#000000" type="line" width="1.0"/>
+<y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="43.943359375" x="41.82832031250001" y="23.13359374999999">Author</y:NodeLabel>
+<y:Shape type="rectangle"/>
+</y:ShapeNode>
+</data>
+</node>
+<node id="n11">
+<data key="d8"></data>
+<data key="d9"><![CDATA[UMLNote]]></data>
+<data key="d10">
+<y:UMLNoteNode>
+<y:Geometry height="143.14999999999998" width="193.75" x="-36.875" y="272.19999999999993"/>
+<y:Fill color="#99CCFF" transparent="false"/>
+<y:BorderStyle color="#000000" type="line" width="1.0"/>
+<y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="74.6640625" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="156.44921875" x="18.650390625" y="34.24296874999999">Item (book/music/movie) 
+can have many authors.
+
+Is this situation aplicable 
+to item owner?</y:NodeLabel>
+</y:UMLNoteNode>
+</data>
+</node>
+<edge id="e0" source="n7" target="n3">
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="514.8" y="120.0"/>
+<y:Point x="514.8" y="120.00000000000003"/>
+</y:Path>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="standard"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e1" source="n0" target="n4">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="4.800000000000068" sy="0.0" tx="0.0" ty="36.39999999999998">
+<y:Point x="390.0" y="375.0"/>
+</y:Path>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e2" source="n4" target="n6">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="12.400000000000034" sy="0.0" tx="15.300000000000068" ty="0.0"/>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e3" source="n6" target="n3">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="0.0" sy="0.0" tx="5.099999999999966" ty="29.99999999999997"/>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e4" source="n8" target="n0">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="4.375" sy="52.875" tx="34.80000000000007" ty="0.0">
+<y:Point x="570.0" y="443.55"/>
+<y:Point x="420.0" y="443.55"/>
+</y:Path>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e5" source="n8" target="n2">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="0.0" sy="22.875" tx="-60.0" ty="0.0">
+<y:Point x="720.0" y="360.0"/>
+</y:Path>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e6" source="n8" target="n1">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="0.0" sy="-37.125" tx="0.0" ty="0.0"/>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e7" source="n5" target="n0">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="0.0" sy="0.0" tx="0.0" ty="12.899999999999977"/>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e8" source="n9" target="n3">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="43.75" sy="-22.19999999999996" tx="-39.599999999999966" ty="0.0"/>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e9" source="n9" target="n0">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="43.75" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="210.0" y="497.1"/>
+</y:Path>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e10" source="n10" target="n3">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="0.0" sy="-30.00000000000003" tx="0.0" ty="-30.00000000000003"/>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e11" source="n10" target="n0">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="0.0" sy="0.0" tx="-38.849999999999966" ty="12.899999999999977">
+<y:Point x="-73.125" y="510.0"/>
+</y:Path>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e12" source="n11" target="n9">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="58.75" sy="-71.13749999999999" tx="-46.25" ty="0.0">
+<y:Point x="118.75" y="215.53125"/>
+<y:Point x="120.0" y="215.53125"/>
+</y:Path>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e13" source="n11" target="n10">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="-73.125" sy="-67.10624999999999" tx="60.0" ty="0.0"/>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e14" source="n0" target="n2">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="498.87499999999994" y="497.1"/>
+<y:Point x="498.87499999999994" y="497.09999999999997"/>
+</y:Path>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="e15" source="n2" target="n1">
+<data key="d1"/>
+<data key="d2">
+<y:PolyLineEdge>
+<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+<y:LineStyle color="#000000" type="line" width="1.0"/>
+<y:Arrows source="none" target="none"/>
+<y:BendStyle smoothed="false"/>
+</y:PolyLineEdge>
+</data>
+</edge>
 </graph>
 <data key="d4">
 <y:Resources/>
