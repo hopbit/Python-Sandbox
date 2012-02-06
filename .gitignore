@@ -1,2 +1,4 @@
-Python-Sandbox/
 .metadata/
+.settings/
+.project
+.pydevproject
